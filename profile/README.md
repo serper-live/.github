@@ -5,8 +5,6 @@ Built for rank tracking, SEO tooling and research: every request is a fresh sear
 nothing is served from a cache.
 
 - **Up to 100 results per request.** `limit` 1–100, 10 by default; positions go as deep as you ask.
-- **Pay per results, not per attempt.** From $0.04 per block of 10 organic results. A request for 50 results
-  reserves five blocks and is charged only for the blocks that received results; failed searches cost nothing.
 - **No subscription.** Top up from $5 in USDT or USDC; credit never expires.
 - **Try it first.** The [playground](https://serper.live/playground) runs a live search without an account.
 - **Markets.** Supported countries and languages are listed by `GET /v1/countries` and in the
@@ -25,8 +23,8 @@ curl -X POST https://api.serper.live/v1/search \
 
 Use any country code returned by `https://api.serper.live/v1/countries`. The response contains
 `organic[]` with `position`, `title`, `url`, `domain` and `snippet` in ranking order, plus `pages`
-(the blocks of 10 that were charged) and `price` (what the request cost). With `limit` 30 the search
-reads up to three result pages in one call; leave `limit` out to get the top 10 for a single price.
+(the blocks of 10 that were charged). With `limit` 30 the search reads up to three result pages in
+one call; leave `limit` out to get the top 10 for a single price.
 
 ## Links
 
