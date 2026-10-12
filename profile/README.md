@@ -35,5 +35,3 @@ reads up to three result pages in one call; leave `limit` out to get the top 10 
 - [Rank tracking with Serper.live](https://serper.live/rank-tracking-api) — checking a domain's position by country and device
 - [Google rankings by country, without maintaining a scraper](https://medium.com/@serper-live/google-rankings-by-country-without-maintaining-a-scraper-233295584a6a) — a walkthrough with a working Python example
 - [Contact](https://serper.live/contact) — questions about the API, billing or a market you need
-
-Serper.live is run from Ukraine by its owner. Code samples and SDKs will appear in this organization.
