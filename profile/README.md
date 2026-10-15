@@ -29,9 +29,8 @@ one call; leave `limit` out to get the top 10 for a single price.
 ## Links
 
 - [Blog](https://serper.live/blog) — guides on rank tracking and moving off Google's own search APIs
+- [Rank tracking with Serper.live](https://serper.live/blog/rank-tracking-api) — checking a domain's position by country and device
+- [Google Custom Search JSON API alternative](https://serper.live/blog/google-custom-search-api-alternative) — parameter mapping (`q`, `gl`, `hl`, `num`) and migration steps
 - [Documentation](https://serper.live/docs) — endpoints, parameters, response fields, errors and safe retries
 - [Pricing](https://serper.live/pricing) — per-market prices and a monthly cost calculator
 - [Contact](https://serper.live/contact) — questions about the API, billing or a market you need
-- [Rank tracking with Serper.live](https://serper.live/blog/rank-tracking-api) — checking a domain's position by country and device
-- [Google Custom Search JSON API alternative](https://serper.live/blog/google-custom-search-api-alternative) — parameter mapping (`q`, `gl`, `hl`, `num`) and migration steps
-- [Google rankings by country, without maintaining a scraper](https://medium.com/@serper-live/google-rankings-by-country-without-maintaining-a-scraper-233295584a6a) — a walkthrough with a working Python example
